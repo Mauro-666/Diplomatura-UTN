@@ -4,7 +4,9 @@
     align-items: end;
     background-color: white;
     border: 1px solid black;
-    margin: 10px;
+    margin: auto;
+    width: 150px;
+    
 }
 .item1{    
     background-color: red;
@@ -42,7 +44,7 @@
     flex-direction: row-reverse;
     background-color: white;
     border: 2px solid black; 
-    margin: 10px;
+    margin: auto;
     width: 150px;
     height: 200px;
 }
