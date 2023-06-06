@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: yellow;
+    padding: 16px 0;
+}
+
+h1{
+    color: #4c76a5;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    position: static;
+    display: inline-block; 
+    bottom: 35px;
+    margin-left: 10px;
+}
+header img{
+    border-radius: 50%;
+}
+.holder{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* CAROUSEL */
+.testimonios{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.testimonios .carousel{
+    max-width: 100%;
+}
+.carousel{
+    width: 100%;
+    height: 650px;
+}
+.carousel-item{
+    /* width: 100%; */
+    height: 650px;
+    justify-content: center;
+}
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio-imagen{
+    width: 500px;
+}
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.seccion-titulo{
+    text-align: center;
+    background-color: yellow;
+}
+/* NAVEGACION */
+nav{
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+
+.historia p{
+    font-size: 12px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+.persona h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.persona h6{
+    font-size: 11px;
+    font-style: italic;
+}
+.persona p{
+    color: #666;
+    font-size: 10px;
+}
+
+
+
+/* Configuracion testimonios */
+@media screen and (max-width: 800px){
+    .testimonio-imagen{
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto{
+        font-size: 18px;
+    }
+}
