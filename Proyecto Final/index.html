@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="imgage/x-icon" href="img/icono.png">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rubik+Puddles&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" width="100" alt="logo">
-        <h1>mercado  local</h1>
+        <h1 class="titulo">Algun titulo</h1>
     </header>
     <nav>
         <ul class="nav1">
@@ -36,66 +44,350 @@
         <!-- Carrusel -->
         <div id="testimonios-carrusel" class="carousel  slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/willtoulan_340349482_1005449510421644_3243041083061269535_n.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/willtoulan_340514781_6155318227863207_5018128917390936818_n.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/willtoulan_340941865_942010596936582_70136528495967759_n.jpeg" class="d-block w-100" alt="...">
-              </div>
+                <div class="carousel-item active">
+                    <img src="img/willtoulan_340349482_1005449510421644_3243041083061269535_n.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/willtoulan_340514781_6155318227863207_5018128917390936818_n.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/willtoulan_340941865_942010596936582_70136528495967759_n.jpeg" class="d-block w-100" alt="...">
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
-          </div>
-
-
+        </div>
     </section>
-    <main class="holder">
-        <div class="staff">
-            <h2>Staff</h2>
-            <div class="personas">
-                <div class="persona">
-                    <img src="img/nosotros/nosotros1.jpg" alt="">
-                    <h5>Producto 1</h5>
-                    <h6>Detalle</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+    <main>
+        <div class="Recientes">
+            <h2>Recientes <a href="http://">ver mas</a></h2>
+            <div class="productos">
+                <div class="productos-card">
+                    <div class="container">
+                        <div class="imagen">
+                            <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                        </div>
+                            <h5>Producto 1</h5>
+                            <h6>Detalle</h6>
+                        <div class="precio">
+                            <p>$2.999.00</p>
+                        </div>
+                        <div>
+                            <div class="descripcion">
+                                <h6>Descripcion</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="persona">
-                    <img src="img/nosotros/nosotros2.jpg" alt="Diana Reyes">
-                    <h5>Diana Reyes</h5>
-                    <h6>Gerente Comercial</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                <div class="productos-card">
+                    <div class="container">
+                        <div class="imagen">
+                            <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                        </div>
+                            <h5>Producto 1</h5>
+                            <h6>Detalle</h6>
+                        <div class="precio">
+                            <p>$2.999.00</p>
+                        </div>
+                        <div>
+                            <div class="descripcion">
+                                <h6>Descripcion</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="persona">
-                    <img src="img/nosotros/nosotros3.jpg" alt="Roberto Zaptos">
-                    <h5>Roberto Zaptos</h5>
-                    <h6>Gerente de Sistemas</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                <div class="productos-card">
+                    <div class="container">
+                        <div class="imagen">
+                            <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                        </div>
+                            <h5>Producto 1</h5>
+                            <h6>Detalle</h6>
+                        <div class="precio">
+                            <p>$2.999.00</p>
+                        </div>
+                        <div>
+                            <div class="descripcion">
+                                <h6>Descripcion</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="persona">
-                    <img src="img/nosotros/nosotros4.jpg" alt="Sandra Mastropeiro">
-                    <h5>Sandra MastropeiroJ</h5>
-                    <h6>Gerente de Marketing</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                <div class="productos-card">
+                    <div class="container">
+                        <div class="imagen">
+                            <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                        </div>
+                            <h5>Producto 1</h5>
+                            <h6>Detalle</h6>
+                        <div class="precio">
+                            <p>$2.999.00</p>
+                        </div>
+                        <div>
+                            <div class="descripcion">
+                                <h6>Descripcion</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="persona">
-                    <img src="img/nosotros/nosotros5.jpg" alt="Luciano Figueredo">
-                    <h5>Luciano Figueredo</h5>
-                    <h6>Gerente Logistica</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                <div class="productos-card">
+                    <div class="container">
+                        <div class="imagen">
+                            <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                        </div>
+                            <h5>Producto 1</h5>
+                            <h6>Detalle</h6>
+                        <div class="precio">
+                            <p>$2.999.00</p>
+                        </div>
+                        <div>
+                            <div class="descripcion">
+                                <h6>Descripcion</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="prod">
+                <div class="titulo-seccion">
+                    <h2>Encontra lo que buscas <a href="http://">ver todo</a></h2>
+                </div>
+                <div class="productos">
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="productos">
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos-card">
+                        <div class="container">
+                            <div class="imagen">
+                                <img src="img/plantilla-vector-logotipo-carrito-compras-azul_591497-165.avif" alt="">
+                            </div>
+                                <h5>Producto 1</h5>
+                                <h6>Detalle</h6>
+                            <div class="precio">
+                                <p>$2.999.00</p>
+                            </div>
+                            <div>
+                                <div class="descripcion">
+                                    <h6>Descripcion</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate aspernatur commodi velit ut voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        <section>
+            <h2>Descubrí nuestra seccion emprendedores <a href="http://">ver mas</a></h2>
+            <div class="sec-cont">
+                <div class="sec1">
+
+                </div>
+                <div class="sec2">
+    
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-    <footer></footer>
+    <!-- FOOTER -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/code (1).png" alt="Logo del portafolio">
+        <p class="footer-texto text-center">
+            Donde hay una necesidad<br>Hay una oferta
+        </p>
+        <!-- Redes Sociales -->
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:mauro_lh666@hotmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Mauro Hakim (2023) &#169;</div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

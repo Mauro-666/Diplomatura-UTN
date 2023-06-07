@@ -5,12 +5,12 @@ body {
 }
 
 header{
-    background-color: yellow;
-    padding: 16px 0;
+    padding: 16px;
 }
 
 h1{
-    color: #4c76a5;
+    font-family: 'Righteous', cursive;
+    color:brown;
     font-size: 40px;
     font-weight: 100;
     font-style: italic;
@@ -19,12 +19,21 @@ h1{
     bottom: 35px;
     margin-left: 10px;
 }
+
+h2{
+    margin-top: 5px;
+    font-family: 'Righteous', cursive;
+}
 header img{
     border-radius: 50%;
 }
 .holder{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.nav1{
+    font-family: 'Righteous', cursive;
 }
 
 
@@ -105,52 +114,137 @@ nav ul li a.activo{
 .historia p{
     font-size: 12px;
 }
-.personas{
+
+/* CARDS */
+.productos{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    /* background-color: grey; */
+    padding: 10px;
 }
-.persona{
+.container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.productos-card{
+    background-color: yellow;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 18%;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    padding: 13px;
+    padding: 2px;
     box-sizing: border-box;
+    margin: 2px;
+    
 }
-.persona img{
+.productos-card img{
     border-radius: 50%;
     max-width: 60%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.persona h5,
-.persona h6 {
-    margin: 0;
-    font-weight: normal;
-    color: #2e64a1;
+
+.productos-card h5{
+    background-color: aquamarine;
+    margin-top: 20px;
+    font-size: 20px;
 }
-.persona h5{
-    font-size: 14px;
-    margin-top: 5px;
+.productos-card h6{
+    font-size: 15px;
+    background-color: aquamarine;
+    margin-top: 10px;
 }
-.persona h6{
-    font-size: 11px;
-    font-style: italic;
-}
-.persona p{
+.productos-card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #666;
     font-size: 10px;
 }
+.productos .precio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 5%;
+}
+.precio p{
+    font-size: 40px;
+    
+}
+.descripcion{
+    background-color: #4c76a5;
+    
+}
 
+/* SECCION */
+.sec-cont{
+    margin: 10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.sec1, .sec2{
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+}
 
-
-/* Configuracion testimonios */
-@media screen and (max-width: 800px){
-    .testimonio-imagen{
-        height: 120px;
-        width: 120px;
-    }
-
-    .testimonio-texto{
-        font-size: 18px;
-    }
+/* FOOTER */
+footer{
+    min-height: 500px;
+}
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;   
+}
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+.seccion-clara{
+    color: black;
+    background-color: white;
 }
